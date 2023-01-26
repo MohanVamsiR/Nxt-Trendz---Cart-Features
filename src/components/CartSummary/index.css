@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.cart-overview-container {
+  display: flex;
+  flex-direction: column;
+}
+.overview-heading {
+  display: flex;
+  align-self: flex-end;
+  color: #616e7c;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.over-view-span {
+  display: flex;
+  align-self: flex-end;
+  color: #171f46;
+  font-weight: 700;
+  font-size: 20px;
+}
+.overview-para {
+  color: #171f46;
+  font-size: 15px;
+  align-self: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .cart-overview-container {
+    width: 30%;
+    align-self: flex-end;
+  }
+}
+.button-checkout {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
